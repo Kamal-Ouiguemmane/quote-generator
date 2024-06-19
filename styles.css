@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9DC08B;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    width: 90%;
+    max-width: 520px;
+    text-align: center;
+}
+
+.container{
+    /* border: solid 2px lightgray; */
+    padding: 2rem;
+}
+
+h1{
+    color: #3D1766;
+    font-weight: bold;
+}
+
+#quote{
+    font-style: italic;
+}
+
+#btn{
+    padding: .7rem 1.5rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: #1C315E;
+    background-color: #F88379;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+#btn:hover{
+    color: #F88379;
+    background-color: #1C315E;
+}
+
+#btn, #author{
+    margin-top: 1rem;
+}
